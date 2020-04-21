@@ -1,0 +1,163 @@
+Tphone_book
+v7
+r0
+t354719630.400503
+cCheck dependencies
+cCompileC build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_demo.o "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_demo.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_test.o "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_test.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book.o "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLd "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug/phone_book" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004A5C14A60000000000000DCB
+t1247548582
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004A11EB240000000000000644
+t1242688292
+s1604
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004A11EB240000000000003197
+t1242688292
+s12695
+
+N/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book.h
+c000000004F745E3600000000000001B1
+t1333026358
+s433
+i<stddef.h>
+i<stdbool.h>
+
+N/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book.c
+c000000004F745E310000000000000690
+t1333026353
+s1680
+i"phone_book.h"
+i<stdlib.h>
+i<string.h>
+i<stdio.h>
+
+N/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_demo.c
+c000000004F745E2900000000000000F9
+t1333026345
+s249
+i"phone_book.h"
+
+N/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_test.c
+c000000004F745E120000000000000232
+t1333026322
+s562
+i"phone_book.h"
+i<assert.h>
+
+N/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug/phone_book
+t2
+s0
+
+N/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book.LinkFileList
+c000000004F74600D00000000000001C0
+t1333026829
+s448
+
+N/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book.o
+t1333026830
+s6436
+
+N/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_demo.o
+t1333026829
+s2960
+
+N/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_test.o
+t1333026829
+s3740
+
+N/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/main.c
+c000000004F745E860000000000000089
+t1333026438
+s137
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies354719629#354719629#0(116"[WARN]warning: no rule to process file '$(PROJECT_DIR)/../Makefile' of type sourcecode.make for architecture x86_641(22@109"warning: no rule to process file '$(PROJECT_DIR)/../Makefile' of type sourcecode.make for architecture x86_64354719629#18446744073709551615#0#0(1@0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/main.o "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book.o "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s354719629.943986
+e354719630.037358
+r1
+xCompileC
+xbuild/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book.o
+x/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book.c354719629#354719630#0(0"0(0#0#80"/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book.c4300897736#1647"    cd "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-generated-files.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-own-target-headers.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-all-target-headers.hmap" -iquote "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-project-headers.hmap" "-F/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug/include" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/DerivedSources/x86_64" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/DerivedSources" -c "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book.c" -o "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book.o"0#
+
+CCompileC build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_demo.o "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_demo.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s354719629.545086
+e354719629.943848
+r1
+xCompileC
+xbuild/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_demo.o
+x/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_demo.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_demo.c354719629#354719629#0(0"0(0#0#85"/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_demo.c7306320941019001856#1657"    cd "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-generated-files.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-own-target-headers.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-all-target-headers.hmap" -iquote "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-project-headers.hmap" "-F/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug/include" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/DerivedSources/x86_64" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/DerivedSources" -c "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_demo.c" -o "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_demo.o"0#
+
+CCompileC build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_test.o "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_test.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s354719629.881979
+e354719629.949346
+r1
+xCompileC
+xbuild/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_test.o
+x/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_test.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_test.c354719629#354719629#0(0"0(0#0#85"/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_test.c4300897736#1657"    cd "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-generated-files.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-own-target-headers.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-all-target-headers.hmap" -iquote "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/phone_book-project-headers.hmap" "-F/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug/include" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/DerivedSources/x86_64" "-I/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/DerivedSources" -c "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/../phone_book_test.c" -o "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_test.o"0#
+
+CLd "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug/phone_book" normal x86_64
+s354719630.037454
+e354719630.400446
+r0
+xLd
+x/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug/phone_book
+xnormal
+xx86_64
+old: duplicate symbol _main in /Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_test.o and /Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_demo.o
+ocollect2: ld returned 1 exit status
+lSLF07#2@92"Link /Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug/phone_book354719630#354719630#0(431"ld: duplicate symbol _main in /Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_test.o and /Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_demo.ocollect2: ld returned 1 exit statusCommand /Developer/usr/bin/gcc-4.2 failed with exit code 12(13@331"Duplicate symbol _main in /Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_test.o and /Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book_demo.o354719630#0#336#0(6@0"354719630#0#0#0#0#0"0(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1354719630#18446744073709551615#0#0(1@0"0(0#0#0"4300897736#650"    cd "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug" "-F/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug" -filelist "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/phone_book.build/Debug/phone_book.build/Objects-normal/x86_64/phone_book.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/chooiguanlim/Desktop/Deep C/day two/phone_book/phone_book/build/Debug/phone_book"1#
+

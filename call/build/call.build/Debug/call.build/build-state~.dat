@@ -1,0 +1,69 @@
+Tcall
+v7
+r0
+t354628739.238236
+cCheck dependencies
+cCompileC build/call.build/Debug/call.build/Objects-normal/x86_64/main.o "/Users/chooiguanlim/Desktop/Deep C/call/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLd "/Users/chooiguanlim/Desktop/Deep C/call/build/Debug/call" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Users/chooiguanlim/Desktop/Deep C/call/build/Debug/call
+t2
+s0
+
+N/Users/chooiguanlim/Desktop/Deep C/call/build/call.build/Debug/call.build/Objects-normal/x86_64/call.LinkFileList
+c000000004F72FD030000000000000067
+t1332935939
+s103
+
+N/Users/chooiguanlim/Desktop/Deep C/call/build/call.build/Debug/call.build/Objects-normal/x86_64/main.o
+t1332935936
+s2456
+
+N/Users/chooiguanlim/Desktop/Deep C/call/main.c
+c000000004F72FD00000000000000004A
+t1332935936
+s74
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies354628739#354628739#0(0"0(0#1#0"4300897736#0"0#
+
+CCompileC build/call.build/Debug/call.build/Objects-normal/x86_64/main.o "/Users/chooiguanlim/Desktop/Deep C/call/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s354628739.198499
+e354628739.200422
+r1
+xCompileC
+xbuild/call.build/Debug/call.build/Objects-normal/x86_64/main.o
+x/Users/chooiguanlim/Desktop/Deep C/call/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/chooiguanlim/Desktop/Deep C/call/main.c354628739#354628739#0(0"0(0#0#46"/Users/chooiguanlim/Desktop/Deep C/call/main.c4300897736#1249"    cd "/Users/chooiguanlim/Desktop/Deep C/call"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/chooiguanlim/Desktop/Deep C/call/build/call.build/Debug/call.build/call-generated-files.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/call/build/call.build/Debug/call.build/call-own-target-headers.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/call/build/call.build/Debug/call.build/call-all-target-headers.hmap" -iquote "/Users/chooiguanlim/Desktop/Deep C/call/build/call.build/Debug/call.build/call-project-headers.hmap" "-F/Users/chooiguanlim/Desktop/Deep C/call/build/Debug" "-I/Users/chooiguanlim/Desktop/Deep C/call/build/Debug/include" "-I/Users/chooiguanlim/Desktop/Deep C/call/build/call.build/Debug/call.build/DerivedSources/x86_64" "-I/Users/chooiguanlim/Desktop/Deep C/call/build/call.build/Debug/call.build/DerivedSources" -c "/Users/chooiguanlim/Desktop/Deep C/call/main.c" -o "/Users/chooiguanlim/Desktop/Deep C/call/build/call.build/Debug/call.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/chooiguanlim/Desktop/Deep C/call/build/Debug/call" normal x86_64
+s354628739.200493
+e354628739.238171
+r0
+xLd
+x/Users/chooiguanlim/Desktop/Deep C/call/build/Debug/call
+xnormal
+xx86_64
+oUndefined symbols:
+o  "_func", referenced from:
+o      _main in main.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@61"Link /Users/chooiguanlim/Desktop/Deep C/call/build/Debug/call354628739#354628739#0(129"Undefined symbols:  "_func", referenced from:      _main in main.old: symbol(s) not foundcollect2: ld returned 1 exit status4(4@25""_func", referenced from:354628739#19#28#0(6@0"354628739#0#0#0#0#0"0(13@15"_main in main.o354628739#47#22#0(6@0"354628739#0#0#0#0#0"0(13@19"Symbol(s) not found354628739#69#24#0(6@0"354628739#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status354628739#93#36#0(6@0"354628739#0#0#0#0#0"0(0#0#0"4300897736#501"    cd "/Users/chooiguanlim/Desktop/Deep C/call"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/chooiguanlim/Desktop/Deep C/call/build/Debug" "-F/Users/chooiguanlim/Desktop/Deep C/call/build/Debug" -filelist "/Users/chooiguanlim/Desktop/Deep C/call/build/call.build/Debug/call.build/Objects-normal/x86_64/call.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/chooiguanlim/Desktop/Deep C/call/build/Debug/call"1#
+

@@ -1,0 +1,188 @@
+Day 2
+
+/* Going through calc_stat */
+Compile with optimisation so compiler looks at the entire file rather than create human readable code
+
+gcc -std=c99 -Wall -Wextra -O -pedantic -Wstrict-prototypes alcstat.c
+
+include your own header file first.  Include less stable to stable.
+include header files in alphabetical order so you can see if there are duplicates
+main should be declared as
+- int main(void)
+- int main(int argc, char * argv[])
+
+define variables just before usage
+should return exit(1) if failed
+when printing errors print to stderr.. fprintf(stderr,"error")
+avoid holding state in a library
+use const whenever you can to communicate your intent
+don't cast from malloc
+break at 80 characters
+use const size_t max_entries = 100 instead of a magic number, stdlib use size_t
+array[max_entries]
+
+or #define MAX_ENTRIES 100
+array[MAX_ENTRIES]
+
+break so that array is not exceeded
+
+sizeof(int) requires parenthesis, int is a type
+sizeof numbers if numbers is an object does not require parenthesis
+
+sizeof numbers / sizeof numbers[0]
+
+to get number of elements
+
+/* Test driven development */
+Write test so it fails, so you know it is executing.
+Fail -> Fix -> Pass
+Always do minimal thing to pass
+Refactor when you are green
+Your test can be wrong
+
+/* Types operators and expressions */
+implementation defined
+unspecified
+undefined
+float, double, long double, double is the more natural number
+signed and unsigned have different arithmetic
+signed and you overflow is undefined behaviour
+unsigned will just wrap around
+- sequence point is a point in the program's execution where all previous side effects shall have taken place and where all subsequent side effects shall not have taken place
+a() + b() e.g. you don't know which one will execute first, () and + have no sequence point defined
+a full expression is one that cannot be enlarged lexically
+; marks end of a full expression, heartbeat of your system, denotes state change has finished
+
+between the previous and next sequence point an object point an object shall have its stored value modified at most once by the evaluation of an expression
+
+- if an object is modified more than once between the sequence points then behaviour is undefined
+
+- if an expression reads the value of a modified object more than once between sequence points the result is undefined
+e.g. array[n++] = n;
+array[n] = n++; // does n take place before the n++ ???
+
+n = n++ (2 modifications of n without sequence point)
+n + n++ (is value of n before value of n++ evaluation? no left to right evaluation in C)
+
+|| is a sequence point operator
+a ? b : c; // sequence point at the ?
+int last  = {2,3,4,5,6}; // last will be 6, comma is a sequence point, lhs is evaluated, result is discarded sequence point at the comma
+
+only sequence points guarantee evaluation order
+int x = f() + g() + h() // f g and h can be called in any order!
+
+Using brackets do not guarantee sequence points either
+i.e
+( ( ( f() ) + g() ) + h() )
+
+so you have to do it like this
+
+int a = f();
+int b = g();
+int c = h();
+x = a + b + c;
+
+or
+
+a = f(), b = g(), c = h(), x = a + b + c;
+
+m = m++, m;
+= has higher precedence so its undefined
+
+/* Control Flow */
+; // null statement
+declaration; // semicolons required
+expression; // semicolons required
+{
+..;
+} // trailing semicolon not required
+
+if (x++ < 10) // x++ < 10 is a full expression, then you get a sequence point
+{
+  func(x);
+}
+
+// switch is an intelligent goto
+int a;
+...
+switch (days % 10)
+{
+  at = 0; // will not be executed
+case 1:
+}
+
+/* Pointers and Arrays */
+
+pointers allowed to point to an element one past the array
+
+int * stream; // stream is a pointer to an int
+int * pointer, value; // => int * pointer; int value;
+
+
+int * stream = NULL;
+if (pos)
+if (pos != 0)
+if (pos != NULL)
+
+int variable = 42;
+int * pointer = &variable; // * used in  declarator
+int copy = *pointer;
+
+arrays
+- default init when static
+
+enum { jan, feb, march}
+array indexing is not bounds checked
+
+char * p = "hello";
+char * l = "lo"; // l can overlay on p, only for string pointers
+
+int * p = (int []){0,1,2};
+
+array[n] => *(array +n) // name of array is decayed to point to the element which is then incremented and dereferenced
+
+array[n] can also be n[array]
+int v = *pointer++; // this is equals to int v = *pointer; pointer++;
+
+
+void * // void pointer, can't deference because you don't know how much to move pointer by
+
+// *p  is accessed only via p in the surrounding block, *q is only accessed via q in the surrounding block
+void f(int n, int * restrict p, int * restrict q) 
+{
+  while (n-- > 0)
+  {
+    *p++ = *q++;
+  }
+}
+
+// dynamic memory
+malloc returns void pointer
+ 
+        unsigned int at;
+typedef unsigned int size_t; // size_t is now unsigned int
+
+// Enum is just an integer wrapper
+enum suit { ... }
+typedef enum suit suit;
+suit trumps = clubs;
+
+typdef enum suit {... } suit;
+suit trumps = clubs;
+
+typedef enum {...} suit;
+suit trumps = clubs;
+
+// struct copying is bitwise and you can copy it
+a.my_struct = another_struct;
+// instead of
+a.my_struct.some_var = another_struct.some_var;
+
+// days in month
+enum { jan, feb, march };
+const days_in_month[] = { [jan]=31,[feb]=28 };
+
+Something to look at? ABI - application binary interface
+
+// compound literal. Aggregate initialization list can be "cast"
+deadline = (date) { 2008, may, 1 };

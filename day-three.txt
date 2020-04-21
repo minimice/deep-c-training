@@ -1,0 +1,79 @@
+Day 3
+
+/* Preprocessor */
+Avoid preprocessor if you can
+
+#define BUFFER_SIZE (100)
+char buf[BUFFER_SIZE]; // becomes char buffer[(100)];
+
+__func__
+__LINE__
+__FILE__
+__DATE__
+__TIME__
+
+use CAPS for macro names, assert() is a macro though :)
+
+#define MAX(a,b) ((a) > (b) ? (a) : (b))
+
+// macro could be part of larger expression
+
+f(MAX(n++,limit)); // opps
+
+consider replacing macro with inline function
+
+what you write on macro must exist on one physical line, use \(carriage return) to extend to multiple lines
+
+commas, semi colons give sequence points
+
+#define DEBUG(...)  fprintf(stderr, __VA_ARGS__) // magic way of selecting what's written in the ...
+
+DEBUG("error: %s", message);
+
+fprintf(stderr,"errorL %s", message);
+
+Source file should always include your header files first, then system header files i.e. less stable to more stable
+
+c++ compiler provides better error messages so it's useful to use it to compile c code
+
+/* Going through exercise */
+GNU Readline to produce command line interface
+Trie library to build trees
+
+// consider exposing internal functions in another header file
+
+/* After lunch */
+Spirit of C
+
+Trust the programmer
+
+struct mile
+{
+  int value;
+};
+
+struct kilometer
+{
+  int value;
+};
+
+lhs = right; // wont compile lhs mile, right kilometer
+
+///////////// Summary
+
+Evaluation order is mostly unspecified
+
+/** To compare optimized vs non optimised code */
+gcc -O9 bar.c // optimisation level 9 change 9 to 0 for no optimisation
+gdb ./a.out
+break main
+run
+disass
+
+nm blah.o to show which are pulibc symbols (prefixed with T)
+
+gperf should be gprof in the "Create a phone book library" slide
+
+typedef struct date_tag * date; // pointer to a struct which is date_tag
+
+Test-Driven Development for Embedded C (James Grenning)

@@ -1,0 +1,90 @@
+Day 1
+The Art of Unix Programming
+Derek Jones, Knosoft
+
+Jump into an instruction identified by start
+start will perform basic initialisation, prepare command line arguments, etc
+then the main() function will be called
+
+// order of evaluation is unspecified.  Compiler might choose to evaluate life() first
+int a = calc(universe, life(), everything());
+
+int a = calc(7, 6, 1);
+// push arguments on execution stack, reserve space for the return value
+// maybe the order of arguments being passed is defined by calling convention (ABI)
+
+c
+b
+a
+space for return value
+return address
+
+// if optimisation is turned on, then life and everything is always fixed and it could result in
+int a = universe * 6 / 1;
+
+everything(void) { return 1; } // will not be removed as it is not static and could
+// be accessed outside the file
+
+Key point is execution and calling convention is not dictated by the standard.  In C nearly everything can happen and will happen internally as long as the external behaviour is satisfied.  C standard defines expected behaviour but says very little about how it should be implemented, that is why C is such a successful language on a wide variety of hardware.
+
+/** 4 types of behaviour **/
+// implementation defined 
+// construct is not incorrect, code must compile, compiler must document
+// the behaviour
+int i = ~0;
+i >>= 1;
+printf("%d\n", i);
+
+// unspecified output
+// same as implementation defined except behaviour need not be documented
+printf("4") + printf("2");
+printf("\n");
+
+// undefined
+// anything at all can happen, all bets are off, standard imposes no requirements
+int k = INT_MAX;
+k += 1;
+printf("%d\n", k);
+
+// locale specific behaviour
+/** End behaviours **/
+
+v[i++] - v[i++]
+// variable cannot be updated twice between two sequence points
+
+/* 4 Steps */
+compiler
+translator
+assembler
+linker
+
+int printf(const char* restrict, ...); // this is the signature of the function, function prototype
+// restrict is a reserved keyword to compiler that array will not overlap
+
+int the_answer() // will have external linkage
+// expression to actually do statement
+i < 7
+// assignment expression
+a = 0
+// expression statement (notice semi colon)
+a += b;
+
+static variables in C are assigned to 0, these are placed in the BSS segment, which is then memset to 0. variables declared outside of functions are always static.
+
+
+
+
+/* After lunch */
+char* str2 = "bar";
+const char* str3 = "gaz";
+
+default is int
+default is double
+
+/* Keywords */
+register - storage type spec. suggest that put variable in register. so you can't take the register of it.
+volatile - hint to compiler that variable cannot be optimised, read it everytime you use it.
+_imaginary - to work with complex numbers. removed in c11.
+union - like struct.  Members all use same memory space.
+restrict - tells user that no overlaps should occur. e.g. memcopy between source and dest.
+

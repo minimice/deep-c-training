@@ -1,0 +1,64 @@
+Tgetvalue
+v7
+r0
+t354628355.425204
+cCheck dependencies
+cCompileC build/getvalue.build/Debug/getvalue.build/Objects-normal/x86_64/main.o "/Users/chooiguanlim/Desktop/Deep C/getvalue/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLd "/Users/chooiguanlim/Desktop/Deep C/getvalue/build/Debug/getvalue" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Users/chooiguanlim/Desktop/Deep C/getvalue/build/Debug/getvalue
+t1332935555
+s9104
+
+N/Users/chooiguanlim/Desktop/Deep C/getvalue/build/getvalue.build/Debug/getvalue.build/Objects-normal/x86_64/getvalue.LinkFileList
+c000000004F72FB830000000000000073
+t1332935555
+s115
+
+N/Users/chooiguanlim/Desktop/Deep C/getvalue/build/getvalue.build/Debug/getvalue.build/Objects-normal/x86_64/main.o
+t1332935545
+s3080
+
+N/Users/chooiguanlim/Desktop/Deep C/getvalue/main.c
+c000000004F72FB7900000000000000C7
+t1332935545
+s199
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies354628355#354628355#0(0"0(0#1#0"4300897736#0"0#
+
+CCompileC build/getvalue.build/Debug/getvalue.build/Objects-normal/x86_64/main.o "/Users/chooiguanlim/Desktop/Deep C/getvalue/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s354628355.401210
+e354628355.406331
+r1
+xCompileC
+xbuild/getvalue.build/Debug/getvalue.build/Objects-normal/x86_64/main.o
+x/Users/chooiguanlim/Desktop/Deep C/getvalue/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/chooiguanlim/Desktop/Deep C/getvalue/main.c354628355#354628355#0(0"0(0#0#50"/Users/chooiguanlim/Desktop/Deep C/getvalue/main.c4300897736#1365"    cd "/Users/chooiguanlim/Desktop/Deep C/getvalue"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/chooiguanlim/Desktop/Deep C/getvalue/build/getvalue.build/Debug/getvalue.build/getvalue-generated-files.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/getvalue/build/getvalue.build/Debug/getvalue.build/getvalue-own-target-headers.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/getvalue/build/getvalue.build/Debug/getvalue.build/getvalue-all-target-headers.hmap" -iquote "/Users/chooiguanlim/Desktop/Deep C/getvalue/build/getvalue.build/Debug/getvalue.build/getvalue-project-headers.hmap" "-F/Users/chooiguanlim/Desktop/Deep C/getvalue/build/Debug" "-I/Users/chooiguanlim/Desktop/Deep C/getvalue/build/Debug/include" "-I/Users/chooiguanlim/Desktop/Deep C/getvalue/build/getvalue.build/Debug/getvalue.build/DerivedSources/x86_64" "-I/Users/chooiguanlim/Desktop/Deep C/getvalue/build/getvalue.build/Debug/getvalue.build/DerivedSources" -c "/Users/chooiguanlim/Desktop/Deep C/getvalue/main.c" -o "/Users/chooiguanlim/Desktop/Deep C/getvalue/build/getvalue.build/Debug/getvalue.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/chooiguanlim/Desktop/Deep C/getvalue/build/Debug/getvalue" normal x86_64
+s354628355.406406
+e354628355.425153
+r1
+xLd
+x/Users/chooiguanlim/Desktop/Deep C/getvalue/build/Debug/getvalue
+xnormal
+xx86_64
+lSLF07#2@69"Link /Users/chooiguanlim/Desktop/Deep C/getvalue/build/Debug/getvalue354628355#354628355#0(0"0(0#0#0"4300897736#537"    cd "/Users/chooiguanlim/Desktop/Deep C/getvalue"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/chooiguanlim/Desktop/Deep C/getvalue/build/Debug" "-F/Users/chooiguanlim/Desktop/Deep C/getvalue/build/Debug" -filelist "/Users/chooiguanlim/Desktop/Deep C/getvalue/build/getvalue.build/Debug/getvalue.build/Objects-normal/x86_64/getvalue.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/chooiguanlim/Desktop/Deep C/getvalue/build/Debug/getvalue"0#
+

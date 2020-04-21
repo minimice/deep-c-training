@@ -1,0 +1,77 @@
+Tcalcstat
+v7
+r0
+t354632525.325274
+cCheck dependencies
+cCompileC build/calcstat.build/Debug/calcstat.build/Objects-normal/x86_64/calcstat.o "/Users/chooiguanlim/Desktop/Deep C/calcstat/calcstat.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLd "/Users/chooiguanlim/Desktop/Deep C/calcstat/build/Debug/calcstat" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Users/chooiguanlim/Desktop/Deep C/calcstat/build/Debug/calcstat
+t1332939725
+s8984
+
+N/Users/chooiguanlim/Desktop/Deep C/calcstat/build/calcstat.build/Debug/calcstat.build/Objects-normal/x86_64/calcstat.LinkFileList
+c000000004F730BCC0000000000000077
+t1332939724
+s119
+
+N/Users/chooiguanlim/Desktop/Deep C/calcstat/build/calcstat.build/Debug/calcstat.build/Objects-normal/x86_64/calcstat.o
+t1332939724
+s2692
+
+N/Users/chooiguanlim/Desktop/Deep C/calcstat/build/calcstat.build/Debug/calcstat.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/chooiguanlim/Desktop/Deep C/calcstat/calcstat.c
+c000000004F730BB00000000000000089
+t1332939696
+s137
+i<stdio.h>
+
+N/Users/chooiguanlim/Desktop/Deep C/calcstat/main.c
+c000000004F730BB00000000000000089
+t1332939696
+s137
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies354632524#354632524#0(0"0(0#1#0"4300897736#0"0#
+
+CCompileC build/calcstat.build/Debug/calcstat.build/Objects-normal/x86_64/calcstat.o "/Users/chooiguanlim/Desktop/Deep C/calcstat/calcstat.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s354632524.503217
+e354632525.036742
+r1
+xCompileC
+xbuild/calcstat.build/Debug/calcstat.build/Objects-normal/x86_64/calcstat.o
+x/Users/chooiguanlim/Desktop/Deep C/calcstat/calcstat.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/chooiguanlim/Desktop/Deep C/calcstat/calcstat.c354632524#354632525#0(0"0(0#0#54"/Users/chooiguanlim/Desktop/Deep C/calcstat/calcstat.c4300897736#1373"    cd "/Users/chooiguanlim/Desktop/Deep C/calcstat"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/chooiguanlim/Desktop/Deep C/calcstat/build/calcstat.build/Debug/calcstat.build/calcstat-generated-files.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/calcstat/build/calcstat.build/Debug/calcstat.build/calcstat-own-target-headers.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/calcstat/build/calcstat.build/Debug/calcstat.build/calcstat-all-target-headers.hmap" -iquote "/Users/chooiguanlim/Desktop/Deep C/calcstat/build/calcstat.build/Debug/calcstat.build/calcstat-project-headers.hmap" "-F/Users/chooiguanlim/Desktop/Deep C/calcstat/build/Debug" "-I/Users/chooiguanlim/Desktop/Deep C/calcstat/build/Debug/include" "-I/Users/chooiguanlim/Desktop/Deep C/calcstat/build/calcstat.build/Debug/calcstat.build/DerivedSources/x86_64" "-I/Users/chooiguanlim/Desktop/Deep C/calcstat/build/calcstat.build/Debug/calcstat.build/DerivedSources" -c "/Users/chooiguanlim/Desktop/Deep C/calcstat/calcstat.c" -o "/Users/chooiguanlim/Desktop/Deep C/calcstat/build/calcstat.build/Debug/calcstat.build/Objects-normal/x86_64/calcstat.o"0#
+
+CCompileC build/calcstat.build/Debug/calcstat.build/Objects-normal/x86_64/main.o "/Users/chooiguanlim/Desktop/Deep C/calcstat/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CLd "/Users/chooiguanlim/Desktop/Deep C/calcstat/build/Debug/calcstat" normal x86_64
+s354632525.036887
+e354632525.325211
+r1
+xLd
+x/Users/chooiguanlim/Desktop/Deep C/calcstat/build/Debug/calcstat
+xnormal
+xx86_64
+lSLF07#2@69"Link /Users/chooiguanlim/Desktop/Deep C/calcstat/build/Debug/calcstat354632525#354632525#0(0"0(0#0#0"4300897736#537"    cd "/Users/chooiguanlim/Desktop/Deep C/calcstat"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/chooiguanlim/Desktop/Deep C/calcstat/build/Debug" "-F/Users/chooiguanlim/Desktop/Deep C/calcstat/build/Debug" -filelist "/Users/chooiguanlim/Desktop/Deep C/calcstat/build/calcstat.build/Debug/calcstat.build/Objects-normal/x86_64/calcstat.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/chooiguanlim/Desktop/Deep C/calcstat/build/Debug/calcstat"0#
+

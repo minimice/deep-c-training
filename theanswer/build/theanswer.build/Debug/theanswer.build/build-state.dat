@@ -1,0 +1,94 @@
+Ttheanswer
+v7
+r0
+t354618344.365092
+cCheck dependencies
+cCompileC build/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/main.o "/Users/chooiguanlim/Desktop/Deep C/theanswer/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/dt.o "/Users/chooiguanlim/Desktop/Deep C/theanswer/dt.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLd "/Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug/theanswer" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug/theanswer
+t1332925544
+s9592
+
+N/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/dt.o
+t1332925544
+s2960
+
+N/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/main.o
+t1332925544
+s2796
+
+N/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/theanswer.LinkFileList
+c000000004F72D46800000000000000EA
+t1332925544
+s234
+
+N/Users/chooiguanlim/Desktop/Deep C/theanswer/dt.c
+c000000004F72D4BF00000000000000DD
+t1332925631
+s221
+i"dt.h"
+
+N/Users/chooiguanlim/Desktop/Deep C/theanswer/dt.h
+c000000004F72E7650000000000000032
+t1332930405
+s50
+
+N/Users/chooiguanlim/Desktop/Deep C/theanswer/main.c
+c000000004F72D1D20000000000000090
+t1332924882
+s144
+i"dt.h"
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies354618344#354618344#0(0"0(0#1#0"4300897736#0"0#
+
+CCompileC build/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/dt.o "/Users/chooiguanlim/Desktop/Deep C/theanswer/dt.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s354618344.308435
+e354618344.349522
+r1
+xCompileC
+xbuild/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/dt.o
+x/Users/chooiguanlim/Desktop/Deep C/theanswer/dt.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/chooiguanlim/Desktop/Deep C/theanswer/dt.c354618344#354618344#0(0"0(0#0#49"/Users/chooiguanlim/Desktop/Deep C/theanswer/dt.c4300897736#1390"    cd "/Users/chooiguanlim/Desktop/Deep C/theanswer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/theanswer-generated-files.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/theanswer-own-target-headers.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/theanswer-all-target-headers.hmap" -iquote "/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/theanswer-project-headers.hmap" "-F/Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug" "-I/Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug/include" "-I/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/DerivedSources/x86_64" "-I/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/DerivedSources" -c "/Users/chooiguanlim/Desktop/Deep C/theanswer/dt.c" -o "/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/dt.o"0#
+
+CCompileC build/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/main.o "/Users/chooiguanlim/Desktop/Deep C/theanswer/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s354618344.302716
+e354618344.342586
+r1
+xCompileC
+xbuild/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/main.o
+x/Users/chooiguanlim/Desktop/Deep C/theanswer/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/chooiguanlim/Desktop/Deep C/theanswer/main.c354618344#354618344#0(0"0(0#0#51"/Users/chooiguanlim/Desktop/Deep C/theanswer/main.c4300897736#1394"    cd "/Users/chooiguanlim/Desktop/Deep C/theanswer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/theanswer-generated-files.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/theanswer-own-target-headers.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/theanswer-all-target-headers.hmap" -iquote "/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/theanswer-project-headers.hmap" "-F/Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug" "-I/Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug/include" "-I/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/DerivedSources/x86_64" "-I/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/DerivedSources" -c "/Users/chooiguanlim/Desktop/Deep C/theanswer/main.c" -o "/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug/theanswer" normal x86_64
+s354618344.349622
+e354618344.365037
+r1
+xLd
+x/Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug/theanswer
+xnormal
+xx86_64
+lSLF07#2@71"Link /Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug/theanswer354618344#354618344#0(0"0(0#0#0"4300897736#546"    cd "/Users/chooiguanlim/Desktop/Deep C/theanswer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug" "-F/Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug" -filelist "/Users/chooiguanlim/Desktop/Deep C/theanswer/build/theanswer.build/Debug/theanswer.build/Objects-normal/x86_64/theanswer.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/chooiguanlim/Desktop/Deep C/theanswer/build/Debug/theanswer"0#
+

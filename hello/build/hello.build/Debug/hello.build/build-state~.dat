@@ -1,0 +1,64 @@
+Thello
+v7
+r0
+t354614044.372125
+cCheck dependencies
+cCompileC build/hello.build/Debug/hello.build/Objects-normal/x86_64/main.o "/Users/chooiguanlim/Desktop/Deep C/hello/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLd "/Users/chooiguanlim/Desktop/Deep C/hello/build/Debug/hello" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Users/chooiguanlim/Desktop/Deep C/hello/build/Debug/hello
+t1332921244
+s9344
+
+N/Users/chooiguanlim/Desktop/Deep C/hello/build/hello.build/Debug/hello.build/Objects-normal/x86_64/hello.LinkFileList
+c000000004F72C39C000000000000006A
+t1332921244
+s106
+
+N/Users/chooiguanlim/Desktop/Deep C/hello/build/hello.build/Debug/hello.build/Objects-normal/x86_64/main.o
+t1332921244
+s4044
+
+N/Users/chooiguanlim/Desktop/Deep C/hello/main.c
+c000000004F72C39B000000000000011B
+t1332921243
+s283
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies354614043#354614044#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/hello.build/Debug/hello.build/Objects-normal/x86_64/main.o "/Users/chooiguanlim/Desktop/Deep C/hello/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s354614044.026073
+e354614044.057722
+r1
+xCompileC
+xbuild/hello.build/Debug/hello.build/Objects-normal/x86_64/main.o
+x/Users/chooiguanlim/Desktop/Deep C/hello/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/chooiguanlim/Desktop/Deep C/hello/main.c354614044#354614044#0(0"0(0#0#47"/Users/chooiguanlim/Desktop/Deep C/hello/main.c3907004821821025792#1278"    cd "/Users/chooiguanlim/Desktop/Deep C/hello"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/chooiguanlim/Desktop/Deep C/hello/build/hello.build/Debug/hello.build/hello-generated-files.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/hello/build/hello.build/Debug/hello.build/hello-own-target-headers.hmap" "-I/Users/chooiguanlim/Desktop/Deep C/hello/build/hello.build/Debug/hello.build/hello-all-target-headers.hmap" -iquote "/Users/chooiguanlim/Desktop/Deep C/hello/build/hello.build/Debug/hello.build/hello-project-headers.hmap" "-F/Users/chooiguanlim/Desktop/Deep C/hello/build/Debug" "-I/Users/chooiguanlim/Desktop/Deep C/hello/build/Debug/include" "-I/Users/chooiguanlim/Desktop/Deep C/hello/build/hello.build/Debug/hello.build/DerivedSources/x86_64" "-I/Users/chooiguanlim/Desktop/Deep C/hello/build/hello.build/Debug/hello.build/DerivedSources" -c "/Users/chooiguanlim/Desktop/Deep C/hello/main.c" -o "/Users/chooiguanlim/Desktop/Deep C/hello/build/hello.build/Debug/hello.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/chooiguanlim/Desktop/Deep C/hello/build/Debug/hello" normal x86_64
+s354614044.057805
+e354614044.372052
+r1
+xLd
+x/Users/chooiguanlim/Desktop/Deep C/hello/build/Debug/hello
+xnormal
+xx86_64
+lSLF07#2@63"Link /Users/chooiguanlim/Desktop/Deep C/hello/build/Debug/hello354614044#354614044#0(0"0(0#0#0"30681223440105584#510"    cd "/Users/chooiguanlim/Desktop/Deep C/hello"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/chooiguanlim/Desktop/Deep C/hello/build/Debug" "-F/Users/chooiguanlim/Desktop/Deep C/hello/build/Debug" -filelist "/Users/chooiguanlim/Desktop/Deep C/hello/build/hello.build/Debug/hello.build/Objects-normal/x86_64/hello.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/chooiguanlim/Desktop/Deep C/hello/build/Debug/hello"0#
+
